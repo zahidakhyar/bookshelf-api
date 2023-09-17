@@ -37,7 +37,7 @@ const create = async (request, h) => {
     {
       bookId: id,
     },
-    201
+    201,
   );
 };
 
@@ -48,7 +48,7 @@ const get = async (request, h) => {
 
   if (name) {
     filteredBooks = filteredBooks.filter((book) =>
-      book.name.toLowerCase().includes(name.toLowerCase())
+      book.name.toLowerCase().includes(name.toLowerCase()),
     );
   }
 
@@ -101,7 +101,7 @@ const update = async (request, h) => {
       "fail",
       "Gagal memperbarui buku. Id tidak ditemukan",
       null,
-      404
+      404,
     );
   }
 
@@ -128,7 +128,7 @@ const deleteById = async (request, h) => {
       "fail",
       "Buku gagal dihapus. Id tidak ditemukan",
       null,
-      404
+      404,
     );
   }
 
