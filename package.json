@@ -1,0 +1,21 @@
+{
+  "name": "bookshelf-api",
+  "version": "1.0.0",
+  "description": "Submission Dicoding",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "lint": "eslint ./"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "joi": "^17.10.1",
+    "nanoid": "^3.3.6"
+  },
+  "devDependencies": {
+    "eslint": "^8.49.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
